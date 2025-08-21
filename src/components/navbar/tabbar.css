@@ -1,0 +1,45 @@
+.tab-bar-container {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .tab-bar {
+    display: flex;
+    overflow-x: auto; /* Allow horizontal scrolling */
+
+    padding: 10px 0;
+    gap: 10px;
+    scroll-behavior: smooth; /* Smooth scrolling */
+  
+    /* Hide the scrollbar */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+  .tab-bar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Edge */
+  }
+  .tab-item {
+    flex-shrink: 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e5e7eb; /* Default background color */
+    color: #374151; /* Default text color */
+    cursor: pointer;
+    transition: all 0.1s ease;
+  }
+  
+  .tab-item.active {
+    background-color: #FACDCC; /* Active background color */
+    color: #ffffff; /* Active text color */
+  }
+  
+  
+  .tab-content {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    margin-top: 10px;
+    border-radius: 8px;
+  }
+  
