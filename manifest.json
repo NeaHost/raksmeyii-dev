@@ -1,10 +1,10 @@
 {
     "name": "RakSmey Store",
-    "short_name": "RakSmey II",
+    "short_name": "RakSmey Store",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
+    "background_color": "#FACDCC",
+    "theme_color": "#FACDCC",
     "description": "RakSmey Store is a modern web application that provides a seamless experience for users to browse and download applications.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
